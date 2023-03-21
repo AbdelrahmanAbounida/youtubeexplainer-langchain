@@ -7,3 +7,6 @@
   <img src="readme_imgs/YoutubeExplainer.png" width="700px">
   </p>
 
+  <p align="center">
+  <img src="readme_imgs/video_explainer.png" width="700px">
+  </p>
