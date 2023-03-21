@@ -93,21 +93,23 @@ h6,
 }
 
 
-
-
-.navbar .getstarted,
-.navbar .getstarted:focus {
+ .getstarted,
+ .getstarted:focus {
   background: #eb5d1e;
   color: #fff;
-  padding: 10px 25px;
-  margin-left: 30px;
-  border-radius: 7px;
+}
+.getstarted:hover{
+  color: #fff;
+  background: #eb662d;
 }
 
-
-.navbar .login_btn{
+.login_btn{
   color: #fff;
-  border-color: #ee7843;;
+  border-color: #ee7843;
+}
+.login_btn:hover{
+  color: #fff !important;
+  background-color: #eb5d1e;
 }
 
 #hero {

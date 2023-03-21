@@ -2,8 +2,8 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo d-flex align-items-center">
-        <a href="index.html" class="me-2"><img src="assets/img/youtube.png" alt="" class="img-fluid"></a>
-        <h1 class="fw-bold"><a href="index.html"><span>TubeExplainer</span></a></h1>
+        <a href="{{url_for('main.home')}}" class="me-2"><img src="{{url_for('static',filename='img/youtube.png')}}" alt="" class="img-fluid"></a>
+        <h1 class="fw-bold"><a href="{{url_for('main.home')}}"><span>TubeExplainer</span></a></h1>
       </div>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -17,7 +17,7 @@
                 <a class="nav-link px-4 btn login_btn px-5" style="font-size:16px" href="{{url_for('auth.login')}}">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link getstarted px-5 text-white btn " style="font-size:17px;" href="{{ url_for('auth.register') }}">Register</a>
+                <a class="nav-link login_btn px-5 mx-2 btn " style="font-size:17px;" href="{{ url_for('auth.register') }}">Register</a>
               </li>
             </ul>
           </div>

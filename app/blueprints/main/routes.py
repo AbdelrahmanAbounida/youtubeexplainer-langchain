@@ -4,3 +4,7 @@ from . import main
 @main.route('/')
 def home():
     return render_template('index.html')
+
+@main.route('/explainer')
+def explainer():
+    return render_template('video.html')
